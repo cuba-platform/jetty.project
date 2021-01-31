@@ -138,10 +138,10 @@
                   <version>[1.7.0-40,)</version>
                   <message>[ERROR] OLD JDK [${java.version}] in use. Jetty ${project.version} requires JDK 1.7.0_40 or newer</message>
                 </requireJavaVersion>
-                <versionTxtRule implementation="org.eclipse.jetty.toolchain.enforcer.rules.VersionTxtRule" />
-                <versionOsgiRule implementation="org.eclipse.jetty.toolchain.enforcer.rules.RequireOsgiCompatibleVersionRule" />
-                <versionRedhatRule implementation="org.eclipse.jetty.toolchain.enforcer.rules.RequireRedhatCompatibleVersionRule" />
-                <versionDebianRule implementation="org.eclipse.jetty.toolchain.enforcer.rules.RequireDebianCompatibleVersionRule" />
+                <versionTxtRule implementation="org.eclipse.jetty.toolchain.enforcer.rules.VersionTxtRule"/>
+                <versionOsgiRule implementation="org.eclipse.jetty.toolchain.enforcer.rules.RequireOsgiCompatibleVersionRule"/>
+                <versionRedhatRule implementation="org.eclipse.jetty.toolchain.enforcer.rules.RequireRedhatCompatibleVersionRule"/>
+                <versionDebianRule implementation="org.eclipse.jetty.toolchain.enforcer.rules.RequireDebianCompatibleVersionRule"/>
              </rules>
             </configuration>
           </execution>
@@ -404,7 +404,7 @@
               <tag>
                 <name>org.apache.xbean.XBean</name>
                 <placement>X</placement>
-                <head />
+                <head/>
               </tag>
             </tags>
             <header>
@@ -547,7 +547,7 @@
       <dependency>
         <groupId>org.ow2.asm</groupId>
         <artifactId>asm</artifactId>
-        <version>5.0.1</version>
+        <version>5.2</version>
       </dependency>
       <dependency>
         <groupId>org.ow2.asm</groupId>
@@ -849,7 +849,7 @@
                 <tag>
                   <name>org.apache.xbean.XBean</name>
                   <placement>X</placement>
-                  <head />
+                  <head/>
                 </tag>
               </tags>
               <header>
